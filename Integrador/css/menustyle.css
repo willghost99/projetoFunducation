@@ -1,0 +1,41 @@
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    justify-items: center;
+    
+}
+
+.jogo img {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.jogo img:hover {
+    transform: scale(1.05);
+}
+
+body {
+  background: url("../images/bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.conteiner {
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 280px;
+
+}
